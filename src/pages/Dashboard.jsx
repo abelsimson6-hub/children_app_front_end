@@ -52,6 +52,7 @@ function Dashboard() {
 
   const totalActivities = activities.length;
 
+  console.log("activities:", activities, "type:", typeof activities, "isArray:", Array.isArray(activities));
   const completedActivities = activities.filter(
     (item) => item.status === "Completed"
   ).length;
