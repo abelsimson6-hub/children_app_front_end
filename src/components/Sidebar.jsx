@@ -6,6 +6,8 @@ import SchoolIcon from "@mui/icons-material/School";
 import CalendarMonthIcon from "@mui/icons-material/CalendarMonth";
 import AssessmentIcon from "@mui/icons-material/Assessment";
 import SettingsIcon from "@mui/icons-material/Settings";
+import AssignmentIcon from '@mui/icons-material/Assignment';
+import VideocamIcon from '@mui/icons-material/Videocam';
 
 function Sidebar() {
   return (
@@ -31,6 +33,16 @@ function Sidebar() {
       <NavLink to="/reports">
         <AssessmentIcon />
         Reports
+      </NavLink>
+
+      <NavLink to="/task">
+        <AssignmentIcon />
+        Tasks
+      </NavLink>
+
+      <NavLink to="/video">
+        <VideocamIcon />
+        video class
       </NavLink>
 
       {/* <NavLink to="/settings">

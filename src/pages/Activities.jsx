@@ -210,13 +210,13 @@ function Activities() {
             handleDelete={handleDelete}
           />
 
-          {/* <Pagination
+          <Pagination
             count={filteredActivities.length}
             page={page}
             rowsPerPage={rowsPerPage}
             setPage={setPage}
             setRowsPerPage={setRowsPerPage}
-          /> */}
+          />
         </>
       )}
 

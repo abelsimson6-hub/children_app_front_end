@@ -22,7 +22,7 @@ function Navbar() {
       <h3>{pageTitles[location.pathname] || "Kids Growth"}</h3>
 
       <div>
-        <span>Welcome, Parent</span>
+        <span>Welcome, Teacher</span>
       </div>
 
 
